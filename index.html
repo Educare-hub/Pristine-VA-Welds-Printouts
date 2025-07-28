@@ -1,81 +1,69 @@
-!DOCTYPE html
-html lang=en
-head
-  meta charset=UTF-8
-  meta name=viewport content=width=device-width, initial-scale=1.0
-  titleMwas Online Servicestitle
-  style
-    body { font-family Arial, sans-serif; margin 0; padding 0; background #f4f4f4; }
-    header { background #0d6efd; color white; padding 1rem 2rem; text-align center; }
-    nav { background #343a40; display flex; flex-wrap wrap; justify-content center; }
-    nav a { color white; padding 1rem; display block; text-decoration none; }
-    nav ahover { background #495057; }
-    section { padding 2rem; background white; margin 1rem auto; max-width 1000px; border-radius 8px; box-shadow 0 0 10px rgba(0,0,0,0.1); }
-    h2 { border-bottom 2px solid #ccc; padding-bottom 0.5rem; }
-    ul { list-style-type disc; margin-left 1.5rem; }
-  style
-head
-body
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio - Educare Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+      padding: 10px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .section {
+      margin-top: 30px;
+      cursor: pointer;
+    }
+    .download-btn {
+      background: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="cv-photo.jpg" alt="My Photo">
+    <h1>John Mwangi Gikundi</h1>
+    <p style="text-align:center;">Mechanical Engineering Technician | Customer Support | Packing & Warehouse | Volunteer | Tech Enthusiast</p>
 
-  header
-    h1Mwas Online Services (PristineVA & Welds)h1
-    pYour one-stop solution for digital, academic, and home-based servicesp
-  header
+    <a href="https://wa.me/254757179712" class="btn" target="_blank">📞 Chat on WhatsApp</a>
+    <a href="resume.pdf" class="btn download-btn" download>📄 Download My CV</a>
 
-  nav
-    a href=#academicAcademic & Applicationsa
-    a href=#digitalCyber & Digital Servicesa
-    a href=#virtualOnline & Virtual Supporta
-    a href=#homeHome & Event Servicesa
-    a href=#contactContacta
-  nav
+    <div class="section" onclick="alert('About me section clicked')">
+      <h2>👤 About Me</h2>
+      <p>I’m a hands-on technician with experience in mechanical maintenance, packaging, AutoCAD, plumbing, and community work. I’m seeking opportunities globally and ready to relocate.</p>
+    </div>
 
-  section id=academic
-    h2🎓 Academic & Application Servicesh2
-    ul
-      liEssay writingli
-      liProfessional ATS resume writingli
-      liApplication letters and formal lettersli
-      liKMTC, HELB, college & university applicationsli
-      liSchool, permit, or license applicationsli
-    ul
-  section
-
-  section id=digital
-    h2🖥️ Cyber Café & Digital Servicesh2
-    ul
-      liPrinting & scanningli
-      liPhotocopyingli
-      liProfessional typesetting (error-free)li
-      liDocument editingli
-      liPDF arranging, booklet printingli
-      liBinding & laminationli
-    ul
-  section
-
-  section id=virtual
-    h2💼 Online Support & Virtual Servicesh2
-    ul
-      liSupport for all online jobsli
-      liVirtual assistant tasksli
-    ul
-  section
-
-  section id=home
-    h2🛠️ Home & Event Servicesh2
-    ul
-      liTV mountingli
-      liDrill machine leasingli
-      liVacuum cleaner washingli
-      liDeep fryer leasing (for businesses & events)li
-    ul
-  section
-
-  section id=contact
-    h2📞 Contacth2
-    pPhoneWhatsApp strong+254 757 179 712strongp
-    pEmail strongmwasjoh5479@gmail.comstrongp
-  section
-
-body
-html
+    <div class="section" onclick="alert('My skills section clicked')">
+      <h2>🛠️ Skills</h2>
+      <ul>
+        <li>AutoCAD, Welding, Plumbing</li>
+        <li>Customer Service, P
